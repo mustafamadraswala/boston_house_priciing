@@ -31,13 +31,19 @@ git config --global user.email "museychamp@gmail.com"
 ```
 
 ### Push all the changes and code to Github -
-Add all the files to the staging area - 
+Add all the files to github - 
 ```
 git add .
 ```
-Commit all the files to github -
+
+Check status of your files
 ```
-git commit
+git status
+```
+
+Commit all the files to github by pushing the fies from local to  thestaging environment -
+```
+git commit -m "This is my first comments includes requirement.txt and readme.md file"
 ```
 
 ### Create a python file for your flask application
