@@ -1,4 +1,4 @@
-# Boston_house_priciing
+# Boston_House_Pricing
 End to End Machine Learning Implementation
 
 
@@ -43,7 +43,16 @@ git status
 
 Commit all the files to github by pushing the fies from local to  thestaging environment -
 ```
-git commit -m "This is my first comments includes requirement.txt and readme.md file"
+git commit -m "This is my first commit includes requirement.txt and readme.md file"
+```
+or 
+```
+gid add . && git commit -m "This is my first commit"
+```
+
+Push this to github -
+```
+git push origin main
 ```
 
 ### Create a python file for your flask application
