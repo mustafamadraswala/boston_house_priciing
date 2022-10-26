@@ -80,7 +80,8 @@ python app.py
 #### Create a Procfile which excecutes some commands as soon as the app starts
 Code in the Procfile
 
-
+#### Go to heroku and create a new app
+name - boston-house-pricing-mustafark
 
 
 
