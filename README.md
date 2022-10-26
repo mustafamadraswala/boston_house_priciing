@@ -47,7 +47,7 @@ git commit -m "This is my first commit includes requirement.txt and readme.md fi
 ```
 or 
 ```
-gid add . && git commit -m "This is my first commit"
+git add . && git commit -m "This is my first commit"
 ```
 
 Push this to github -
