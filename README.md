@@ -55,9 +55,33 @@ Push this to github -
 git push origin main
 ```
 
+### Excecute the LinearRegression.ipynb file to get the 2 pickle models
 ### Create a python file for your flask application
 ```
 touch app.py
 ````
+
+### Create a basic web appplication template using HTML -
+Create a tempelates folder - 
+```
+mkdir templates
+```
+touch templates/home.html
+```
+
+### Excecute the file app.py in cmd
+'''
+python app.py
+'''
+
+### Push everything to Github
+
+### Deploy application to the cloud - Heroku
+#### Create a Procfile which excecutes some commands as soon as the app starts
+Code in the Procfile
+
+
+
+
 
 
