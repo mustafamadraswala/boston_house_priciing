@@ -81,7 +81,26 @@ python app.py
 Code in the Procfile
 
 #### Go to heroku and create a new app
-name - boston-house-pricing-mustafark
+1. Name - boston-house-pricing-mustafark
+2. Connect with Github and deploy the branch
+
+### https://boston-house-pricing-mustafark.herokuapp.com/predict
+
+### Deploy an ML application on a server of Heroku cloud with yhe help of Docker and Github actions
+1. Dockerize the entire application 
+2. Any chnages made to the code should reflect directly in the real time web app by usisng a CI/CD pipeline
+
+Create Dockerfile
+For Github actions create 2 folders -
+.github
+sub folder - .workflows
+file - main.yaml
+
+Code in it and then go to -
+1 - Github/repo-name
+2 - Settings --> Secrets --> Actions
+3 - Create 3 New Secrets - HEROKU_EMAIL, HEROKU_API_KEY, HEROKU_APP_NAME
+-- Add key and values accordingly
 
 
 
